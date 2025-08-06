@@ -1,14 +1,13 @@
 name: Sakshi Ghanwat
 
 on: 
-    push:
-      branches: [ main ]
+  push:
+    branches: [ main ]
 
- jobs:
-         demo:
-            runs-on: ubuntu-latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-
-            steps: 
-                name: Greetings
-                run: echo "Hello From Sakshi"
+    steps: 
+      - name: Greetings
+        run: echo "Hello From Sakshi"
